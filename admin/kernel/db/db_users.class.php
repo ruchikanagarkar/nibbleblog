@@ -24,7 +24,7 @@ class DB_USERS {
 	CONSTRUCTORS
 ========================================================================
 */
-	function DB_USERS($file)
+	function __construct($file)
 	{
 		if(file_exists($file))
 		{
